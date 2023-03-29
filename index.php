@@ -2,6 +2,8 @@
 include 'DBController.php';
 $db_handle = new DBController();
 $conn = $db_handle->connectDB();
+
+//zmiana 
 ?>
 
 <!DOCTYPE html>

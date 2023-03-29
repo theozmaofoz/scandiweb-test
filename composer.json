@@ -1,0 +1,9 @@
+{
+    "name": "michal/htdocs",
+    "autoload": {
+        "psr-4": {
+            "Michal\\Htdocs\\": "src/"
+        }
+    },
+    "require": {}
+}
