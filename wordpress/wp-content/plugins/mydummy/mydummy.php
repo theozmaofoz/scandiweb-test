@@ -1,0 +1,3 @@
+<?php
+//  Plugin Name: mydummy
+?>

@@ -1,0 +1,276 @@
+body {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-image: white;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px #7ccef4;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+i {
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+
+
+h1 {
+    color: black;
+    font-family: 'Source Sans Pro';
+    align-items: center;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #89cff0;
+}
+
+h2 {
+    color: white;
+    font-family: 'Source Sans Pro';
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+h2 span {
+    background-color: #f65050;
+}
+
+div.image {
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+
+}
+
+div.image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.center{
+    width: 100%;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+    align-items: center;
+    margin-top: -15px;
+
+}
+
+.right{
+    width: 100%;
+    margin: right;
+    padding: 10px;
+    text-align: center;
+    align-items: right;
+    margin-top: -15px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+  
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.button {
+    background-color: white;
+    border-radius: 100px;
+    /* box-shadow: #f65050; */
+    /* box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;  */
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(255, 255, 255, 0.1) 0 -25px 18px -14px inset,rgba(223, 223, 223, 0.1) 0 1px 2px,rgba(213, 213, 213, 0.15) 0 2px 4px,rgba(132, 132, 132, 0.15) 0 4px 8px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    align-items: right;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 -25px 18px -14px inset,rgba(56, 56, 56, 0.25) 0 1px 2px,rgba(120, 120, 120, 0.25) 0 2px 4px,rgba(171, 171, 171, 0.25) 0 4px 8px,rgba(209, 209, 209, 0.25) 0 8px 16px,rgba(255, 255, 255, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.addbutton {
+    background-color: lightgreen;
+    border-radius: 100px;
+    /* box-shadow: #f65050; */
+    /* box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;  */
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.1) 0 -25px 18px -14px inset,rgba(99, 101, 99, 0.1) 0 1px 2px,rgba(246, 249, 247, 0.15) 0 2px 4px,rgba(0, 0, 0, 0.15) 0 4px 8px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    align-items: right;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;    
+}
+
+.addbutton:hover {
+    box-shadow: rgba(77, 240, 139, 0.693) 0 -25px 18px -14px inset,rgba(37, 239, 114, 0.633) 0 1px 2px,rgba(3, 99, 40, 0.858) 0 2px 4px,rgba(72, 224, 130, 0.825) 0 4px 8px,rgb(131, 255, 179) 0 8px 16px,rgba(26, 242, 108, 0.903) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.deletebutton {
+    background-color: rgb(185, 14, 14);
+    border-radius: 100px;
+    /* box-shadow: #f65050; */
+    /* box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;  */
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.1) 0 -25px 18px -14px inset,rgba(99, 101, 99, 0.1) 0 1px 2px,rgba(246, 249, 247, 0.15) 0 2px 4px,rgba(0, 0, 0, 0.15) 0 4px 8px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    align-items: right;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+
+.deletebutton:hover {
+    box-shadow: rgb(255, 0, 0) 0 -25px 18px -14px inset,rgba(244, 10, 10, 0.642) 0 1px 2px,rgba(243, 80, 80, 0.818) 0 2px 4px,rgba(238, 145, 145, 0.999) 0 4px 8px,rgba(236, 24, 24, 0.801) 0 8px 16px,rgba(229, 9, 9, 0.818) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+#gridview {
+    text-align: center;
+}
+
+#grid {
+    margin-bottom: 30px;
+}
+
+.product-info {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: -1px;
+    padding: 15% .75rem .75rem .75rem;
+    text-align: left;
+    vertical-align: auto;
+    background-color: transparent;
+}
+
+.product-title {
+    font-size: 1.5em;
+}
+
+.product-category {
+    margin-top: 10px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    color: #c4c4c5;
+    border-left: #c4c4c5 3px solid;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+.error input {
+    border-color: red;
+    border-width: 2px;
+}
+
+.success input {
+    border-color: green;
+    border-width: 2px;
+}
+
+.error span {
+    color: red;
+}
+
+.success span {
+    color: green;
+}
+
+span.error {
+    color: red;
+}
+
+i {
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+
+div.image .product-info img {
+    width: 30px;
+    height: auto;
+    border: none;
+}
+
+.delete-checkbox {
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    margin:0;
+    vertical-align: top;
+    position: relative;
+    top: -1px;
+    overflow: hidden;
+}
+
+
+@media screen and (min-width: 1224px) {
+    div.image {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1044px) and (max-width: 1224px) {
+    div.image {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 845px) and (max-width: 1044px) {
+    div.image {
+        width: 200px;
+    }
+}
+
